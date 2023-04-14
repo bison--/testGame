@@ -35,7 +35,7 @@
         ]
     },
     "background2": {
-        "timePerFrame": 0.0,
+        "timePerFrame": 5.0,
         "frameNames": [
             "HG2.png"
         ]
@@ -55,7 +55,7 @@
     "foreground": {
         "timePerFrame": 1.0,
         "frameNames": [
-            "VG.png"
+            "VG1.png"
         ]
     },
     "movingObjects": [
@@ -110,7 +110,7 @@
             },
             "movementMode": "backForth",
             "movementSpeed": 0.55,
-            "flipX": true,
+            "flipX": false,
             "flipY": false,
             "movementStartTime": 20,
             "orderInLayer": 33,
