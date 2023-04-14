@@ -41,7 +41,7 @@
         ]
     },
     "background3": {
-        "timePerFrame": 0.75,
+        "timePerFrame": 0.8,
         "frameNames": [
             "HG3.png"
         ]
@@ -129,7 +129,7 @@
                 "y": -3.23
             },
             "movementMode": "teleport",
-            "movementSpeed": 0.55,
+            "movementSpeed": 0.56,
             "flipX": true,
             "flipY": false,
             "movementStartTime": 0,
