@@ -1,0 +1,146 @@
+{
+    "sceneName": "Desert dying color test",
+    "description": "The desert. A hot place to be.",
+    "unlockCost": 100,
+    "previewImageName": "Desert.png",
+
+    "enemyDying": {
+        "saturation": 1.0,
+        "contrast": 0.9,
+        "hue": 1.0,
+        "color": "#C0C0C0"
+    },
+
+    "enemyDead": {
+        "saturation": 1.0,
+        "contrast": 0.85,
+        "hue": 1.0,
+        "color": "#808080"
+    },
+
+    "mapLocation": {
+        "x": -431,
+        "y": 257
+    },
+    "sky": {
+        "timePerFrame": 0.0,
+        "frameNames": [
+            "Himmel.png"
+        ]
+    },
+    "background1": {
+        "timePerFrame": 0.0,
+        "frameNames": [
+            "HG1.png"
+        ]
+    },
+    "background2": {
+        "timePerFrame": 0.0,
+        "frameNames": [
+            "HG2.png"
+        ]
+    },
+    "background3": {
+        "timePerFrame": 0.75,
+        "frameNames": [
+            "HG3.png"
+        ]
+    },
+    "middleground": {
+        "timePerFrame": 0.0,
+        "frameNames": [
+            "MG.png"
+        ]
+    },
+    "foreground": {
+        "timePerFrame": 1.0,
+        "frameNames": [
+            "VG.png"
+        ]
+    },
+    "movingObjects": [
+        {
+            "startLocationXY": {
+                "x": 14.0,
+                "y": 2.5
+            },
+            "endLocationXY": {
+                "x": -14.0,
+                "y": 2.5
+            },
+            "movementMode": "backForth",
+            "movementSpeed": 1.0,
+            "movementStartTime": 0,
+            "flipX": true,
+            "flipY": false,
+            "orderInLayer": 31,
+            "timePerFrame": 1,
+            "frameNames": [
+                "Flugding.png"
+            ]
+        },
+        {
+            "startLocationXY": {
+                "x": 16.0,
+                "y": 1.45
+            },
+            "endLocationXY": {
+                "x": -16.0,
+                "y": 1.45
+            },
+            "movementMode": "teleport",
+            "movementSpeed": 0.25,
+            "movementStartTime": 15.0,
+            "flipX": false,
+            "flipY": false,
+            "orderInLayer": 5,
+            "timePerFrame": 1,
+            "frameNames": [
+                "Wolke1.png"
+            ]
+        },
+        {
+            "startLocationXY": {
+                "x": -16.0,
+                "y": 3.45
+            },
+            "endLocationXY": {
+                "x": 16.0,
+                "y": 3.45
+            },
+            "movementMode": "backForth",
+            "movementSpeed": 0.55,
+            "flipX": true,
+            "flipY": false,
+            "movementStartTime": 20,
+            "orderInLayer": 33,
+            "timePerFrame": 0.34,
+            "frameNames": [
+                "Wolke2.png"
+            ]
+        },
+        {
+            "startLocationXY": {
+                "x": -10.11,
+                "y": -3.23
+            },
+            "endLocationXY": {
+                "x": 16.0,
+                "y": -3.23
+            },
+            "movementMode": "teleport",
+            "movementSpeed": 0.55,
+            "flipX": true,
+            "flipY": false,
+            "movementStartTime": 0,
+            "orderInLayer": 53,
+            "timePerFrame": 0.3,
+            "frameNames": [
+                "Tumbleweed_1.png",
+                "Tumbleweed_2.png",
+                "Tumbleweed_3.png",
+                "Tumbleweed_4.png"
+            ]
+        }
+    ]
+}
