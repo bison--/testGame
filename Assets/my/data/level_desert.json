@@ -134,7 +134,7 @@
             "flipY": false,
             "movementStartTime": 0,
             "orderInLayer": 53,
-            "timePerFrame": 0.3,
+            "timePerFrame": 0.4,
             "frameNames": [
                 "Tumbleweed_1.png",
                 "Tumbleweed_2.png",
